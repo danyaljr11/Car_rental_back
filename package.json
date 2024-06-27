@@ -1,0 +1,35 @@
+{
+  "name": "cars-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "build": "tsc",
+    "watch": "nodemon --watch src/app.js --watch ./package.json --exec npm run start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Moones Mezher",
+  "license": "ISC",
+  "dependencies": {
+    "@mongodb-js/saslprep": "^1.1.7",
+    "chokidar": "^3.6.0",
+    "cloudinary": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "joi": "^17.13.1",
+    "jsonwebtoken": "^9.0.2",
+    "mime-types": "^2.1.35",
+    "moment": "^2.30.1",
+    "mongodb": "^6.6.2",
+    "mongoose": "^8.4.0",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "password-hash": "^1.2.2",
+    "validator": "^13.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.1"
+  }
+}
